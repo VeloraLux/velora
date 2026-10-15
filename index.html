@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Velora Lux – Prémiové vlasy na predlžovanie | Čoskoro otvárame</title>
+<meta name="description" content="Velora Lux – prémiové vlasy na predlžovanie. Čoskoro otvárame. Platba na dobierku alebo osobný odber v Štúrove.">
+<link rel="icon" href="assets/profile.png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="nav"><img src="assets/profile.png" alt="Velora Lux logo"><nav><a href="#produkty">Produkty</a><a href="#objednavka">Objednávka</a><a href="#formular">Predobjednávka</a></nav></header>
+<section class="hero"><img class="hero-img" src="assets/cover2.png" alt="Velora Lux – Čoskoro otvárame">
+<div class="hero-txt"><p class="kicker">Móda s merou štýlu</p><h1>Čoskoro otvárame</h1><p>Prémiové vlasy na predlžovanie s prirodzeným vzhľadom. Buďte medzi prvými – prví zákazníci získajú otváraciu zľavu. 🎁</p><a class="btn" href="#formular">Chcem byť informovaná</a></div></section>
+<section id="produkty"><h2>Naša ponuka</h2><div class="grid">
+<div class="card"><span class="tag">Čoskoro</span><h3>Clip-in vlasy</h3><p>Rýchla premena za pár minút, bez trvalého pripevnenia.</p></div>
+<div class="card"><span class="tag">Čoskoro</span><h3>Tape-in vlasy</h3><p>Ploché pásiky pre prirodzený a pohodlný výsledok.</p></div>
+<div class="card"><span class="tag">Čoskoro</span><h3>Keratínové vlasy</h3><p>Pramienky na keratínové spoje pre dlhodobé nosenie.</p></div>
+<div class="card"><span class="tag">Čoskoro</span><h3>Príslušenstvo a starostlivosť</h3><p>Kefy, šampóny a kozmetika pre predĺžené vlasy.</p></div>
+</div><p class="note">Ceny a konkrétne produkty zverejníme pri otvorení.</p></section>
+<section id="objednavka" class="dark"><h2>Ako objednať</h2><div class="grid two">
+<div class="card"><h3>📦 Platba na dobierku</h3><p>Zaplatíte až pri prevzatí balíka.</p></div>
+<div class="card"><h3>📍 Osobný odber</h3><p>Sv. Štefana 2, Štúrovo</p></div></div>
+<p class="msg">💬 Záujem o predlžovanie vlasov? <a href="https://m.me/61595393581434">Napíšte nám súkromnú správu.</a></p></section>
+<section id="formular"><h2>Chcem byť informovaná / predobjednávka</h2>
+<form id="f"><label>Meno<input name="meno" required></label>
+<label>Telefón alebo e-mail<input name="kontakt" required></label>
+<label>Záujem o produkt<select name="produkt"><option>Clip-in vlasy</option><option>Tape-in vlasy</option><option>Keratínové vlasy</option><option>Príslušenstvo a starostlivosť</option><option>Ešte neviem</option></select></label>
+<label>Spôsob doručenia<select name="dorucenie"><option>Platba na dobierku</option><option>Osobný odber: Sv. Štefana 2, Štúrovo</option></select></label>
+<label class="chk"><input type="checkbox" required> Súhlasím so spracovaním osobných údajov za účelom kontaktovania.</label>
+<button class="btn" type="submit">Odoslať</button><p class="small">Po kliknutí sa otvorí váš e-mail s pripravenou správou – stačí ju odoslať.</p></form></section>
+<footer><img src="assets/profile.png" alt=""><p><a href="https://www.facebook.com/profile.php?id=61595393581434">Facebook</a> · <a href="https://m.me/61595393581434">Messenger</a> · <a href="mailto:veloraluxsk@mail.grokbot.com">veloraluxsk@mail.grokbot.com</a></p>
+<p class="small">Obchodné podmienky – [DOPLNIŤ] · Ochrana osobných údajov (GDPR) – [DOPLNIŤ] · Reklamačný poriadok – [DOPLNIŤ] · Prevádzkovateľ / IČO – [DOPLNIŤ]</p><p class="small">© 2026 Velora Lux</p></footer>
+<script>document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();const d=new FormData(e.target);
+const b=`Meno: ${d.get('meno')}\nKontakt: ${d.get('kontakt')}\nProdukt: ${d.get('produkt')}\nDoručenie: ${d.get('dorucenie')}`;
+location.href='mailto:veloraluxsk@mail.grokbot.com?subject='+encodeURIComponent('Predobjednávka – Velora Lux')+'&body='+encodeURIComponent(b);});</script>
+</body></html>

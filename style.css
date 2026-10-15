@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;font-family:Montserrat,sans-serif;font-weight:300;color:#eee;background:#0b0b0b radial-gradient(ellipse at 20% 0,#2a2a2a,#0b0b0b 60%) fixed;line-height:1.6}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;color:#d4af37;font-weight:700;margin:.2em 0}a{color:#e6c766}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:10px 5vw;border-bottom:1px solid #d4af3744}.nav img{width:54px;border-radius:50%}.nav a{margin-left:16px;text-decoration:none;font-size:.85rem}
+.hero{display:grid;gap:24px;padding:28px 5vw;align-items:center}.hero-img{width:100%;border-radius:12px;border:1px solid #d4af3766}
+.kicker{letter-spacing:.2em;text-transform:uppercase;color:#d4af37;font-size:.8rem;margin:0}h1{font-size:clamp(2.4rem,7vw,4rem);line-height:1.05}
+.btn{display:inline-block;background:linear-gradient(135deg,#b8902c,#f0d77a,#b8902c);color:#111;font-weight:500;padding:12px 26px;border-radius:30px;border:0;text-decoration:none;cursor:pointer;font-size:1rem}
+section{padding:40px 5vw}h2{text-align:center;font-size:2rem}.grid{display:grid;gap:18px;grid-template-columns:1fr;max-width:1100px;margin:20px auto}
+.card{position:relative;padding-top:44px!important;background:#151515cc;border:1px solid #d4af3755;border-radius:12px;padding:24px}.tag{position:absolute;top:14px;right:14px;background:#d4af37;color:#111;font-size:.75rem;padding:2px 10px;border-radius:20px;font-weight:500}
+.note,.msg{text-align:center}.dark{background:#00000066}form{max-width:560px;margin:0 auto;display:grid;gap:14px}
+label{display:grid;gap:6px;font-size:.9rem}input,select{padding:12px;border-radius:8px;border:1px solid #d4af3777;background:#111;color:#eee;font:inherit}
+.chk{display:flex;gap:10px;align-items:flex-start}.small{font-size:.78rem;color:#aaa}footer{text-align:center;padding:30px 5vw;border-top:1px solid #d4af3744}footer img{width:60px;border-radius:50%}
+@media(min-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1.2fr 1fr}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}.grid.two{grid-template-columns:repeat(2,1fr);max-width:800px}}
