@@ -26,3 +26,13 @@ form.inline input{flex:1;min-width:220px}
 @media(max-width:600px){.gal{grid-template-columns:1fr 1fr;gap:8px}#cd div{min-width:64px;padding:10px 6px}#cd b{font-size:1.8rem}}
 @media(max-width:600px){.nav{flex-wrap:wrap;justify-content:center}.nav nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 12px}.nav nav a{margin:0!important;font-size:.85rem}}
 html,body{overflow-x:hidden}
+
+.quiz{max-width:720px;margin:0 auto;border:1px solid #c9a35b;border-radius:14px;padding:26px;background:linear-gradient(160deg,#141210,#0a0908)}
+.qbar{height:4px;background:#2a2620;border-radius:2px;margin-bottom:18px;overflow:hidden}.qbar span{display:block;height:100%;background:linear-gradient(90deg,#9a7434,#f0d696);transition:width .4s}
+.qn{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:#c9a35b;margin:0}
+.quiz h3{font-family:'Cormorant Garamond',serif;font-size:1.7rem;color:#f0d696;margin:6px 0 16px}
+.qopts{display:grid;gap:10px}.qopt{font:inherit;text-align:left;padding:14px 16px;border-radius:10px;border:1px solid #d4af3766;background:#111;color:#eee;cursor:pointer;transition:.2s}
+.qopt:hover{border-color:#f0d696;background:#1c1812}.qback{margin-top:14px;background:none;border:0;color:#c9a35b;font:inherit;cursor:pointer}
+.qres{display:grid;grid-template-columns:240px 1fr;gap:22px;align-items:center}.qres img{width:100%;border:1px solid #c9a35b;border-radius:8px}
+.qshade{font-size:2.4rem!important}.qcta{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.btn.ghost{background:transparent;border:1px solid #d4af37;color:#f0d696}
+@media(max-width:600px){.quiz{padding:18px}.qres{grid-template-columns:1fr}.qres img{max-width:260px;margin:0 auto}}
