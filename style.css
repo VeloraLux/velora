@@ -103,3 +103,4 @@ footer a:hover{color:#fff}.fbottom .small{color:#a99f8f;margin:0}.legal-mini{fon
 .legal h1,.legal h2{text-align:left}
 
 /*ai*/.lhero .bg img:only-child{filter:none;width:100%;object-position:70% 30%}.lhero.sm .bg img:only-child{object-position:center}
+/*badge-fix*/.pcard{position:relative}.pcard .tag,.tag{top:12px;left:12px;right:auto;max-width:calc(100% - 24px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:#0b0907d9;color:var(--acc);border:1px solid var(--acc);line-height:1.3;z-index:3}
