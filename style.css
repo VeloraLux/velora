@@ -101,3 +101,5 @@ footer a:hover{color:#fff}.fbottom .small{color:#a99f8f;margin:0}.legal-mini{fon
 @media(max-width:1000px){.fgrid{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.fgrid{grid-template-columns:1fr}.nav nav a{margin-left:0;font-size:.74rem}.topbar{font-size:.72rem}}
 .legal h1,.legal h2{text-align:left}
+
+/*ai*/.lhero .bg img:only-child{filter:none;width:100%;object-position:70% 30%}.lhero.sm .bg img:only-child{object-position:center}
